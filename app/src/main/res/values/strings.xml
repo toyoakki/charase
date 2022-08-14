@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">charase</string>
+    <string name="str_text">STR</string>
+    <string name="siz_text">SIZ</string>
+    <string name="app_text">APP</string>
+    <string name="dex_text">DEX</string>
+    <string name="hp_text">HP</string>
+    <string name="int_text">INT</string>
+    <string name="edu_text">EDU</string>
+    <string name="pow_text">POW</string>
+    <string name="con_text">CON</string>
+    <string name="mp_text">MP</string>
+    <string name="san_text">SAN</string>
+    <string name="luc_text">幸運</string>
+    <string name="leg_text">知識</string>
+    <string name="ide_text">アイデア</string>
+    <string name="su1">0</string>
+    <string name="db_text">DB</string>
+    <string name="db_su1">-1d6</string>
+    <string name="db_su2">-1d4</string>
+    <string name="db_su3">+0</string>
+    <string name="db_su4">+1d4</string>
+    <string name="db_su5">+1d6</string>
+    <string name="db_su6">+2d6</string>
+    <string name="all_text">ALL</string>
+    <string name="ex_text">次へ</string>
+    <string name="san_now">現在SAN値</string>
+    <string name="sanud">SAN値変更</string>
+    <string name="henchi">変更値</string>
+    <string name="futei_text">不定</string>
+    <string name="san_up">増加</string>
+    <string name="san_down">減少</string>
+    <string name="bak_text">戻る</string>
+</resources>

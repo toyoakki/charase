@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/strBtn"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="200dp"
+        android:text="@string/str_text"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/sizBtn"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/siz_text"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/strBtn"
+        app:layout_constraintStart_toEndOf="@+id/strBtn"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/appBtn"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/app_text"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/strBtn"
+        app:layout_constraintStart_toEndOf="@+id/sizBtn"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/dexBtn"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/dex_text"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/strBtn"
+        app:layout_constraintStart_toEndOf="@+id/appBtn"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/intBtn"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/int_text"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/strBtn"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/eduBtn"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/edu_text"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/intBtn"
+        app:layout_constraintStart_toEndOf="@+id/intBtn"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/powBtn"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/pow_text"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/intBtn"
+        app:layout_constraintStart_toEndOf="@+id/eduBtn"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/conBtn"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/con_text"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/intBtn"
+        app:layout_constraintStart_toEndOf="@+id/powBtn"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/allBtn"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="84dp"
+        android:text="@string/all_text"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/strText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="40dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="@string/str_text"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sizText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="@string/siz_text"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toEndOf="@+id/strText"
+        app:layout_constraintTop_toTopOf="@+id/strText" />
+
+    <TextView
+        android:id="@+id/appText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="@string/app_text"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toEndOf="@+id/sizText"
+        app:layout_constraintTop_toTopOf="@+id/strText" />
+
+    <TextView
+        android:id="@+id/dexText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="@string/dex_text"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toEndOf="@+id/appText"
+        app:layout_constraintTop_toTopOf="@+id/strText" />
+
+    <TextView
+        android:id="@+id/intText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="@string/int_text"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="@+id/strText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/eduText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="@string/edu_text"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="@+id/sizText"
+        app:layout_constraintTop_toTopOf="@+id/intText" />
+
+    <TextView
+        android:id="@+id/powText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="@string/pow_text"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="@+id/appText"
+        app:layout_constraintTop_toTopOf="@+id/intText" />
+
+    <TextView
+        android:id="@+id/conText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="@string/con_text"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="@+id/dexText"
+        app:layout_constraintTop_toTopOf="@+id/intText" />
+
+    <TextView
+        android:id="@+id/strsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="@string/su1"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="@+id/strText"
+        app:layout_constraintTop_toBottomOf="@+id/strText" />
+
+    <TextView
+        android:id="@+id/sizsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="@string/su1"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="@+id/sizText"
+        app:layout_constraintTop_toBottomOf="@+id/sizText" />
+
+    <TextView
+        android:id="@+id/appsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="@string/su1"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="@+id/appText"
+        app:layout_constraintTop_toBottomOf="@+id/appText" />
+
+    <TextView
+        android:id="@+id/dexsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="@string/su1"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="@+id/dexText"
+        app:layout_constraintTop_toBottomOf="@+id/dexText" />
+
+    <TextView
+        android:id="@+id/intsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="@string/su1"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="@+id/intText"
+        app:layout_constraintTop_toBottomOf="@+id/intText" />
+
+    <TextView
+        android:id="@+id/edusu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="@string/su1"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="@+id/eduText"
+        app:layout_constraintTop_toBottomOf="@+id/eduText" />
+
+    <TextView
+        android:id="@+id/powsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="@string/su1"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="@+id/powText"
+        app:layout_constraintTop_toBottomOf="@+id/powText" />
+
+    <TextView
+        android:id="@+id/consu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="@string/su1"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="@+id/conText"
+        app:layout_constraintTop_toBottomOf="@+id/conText" />
+
+    <Button
+        android:id="@+id/exBtn"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/ex_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
